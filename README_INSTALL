@@ -1,0 +1,10 @@
+   363	14:53	sudo easy_install virtualenv
+   364	14:54	cd sgd2/
+   366	14:54	rehash
+   367	14:54	virtualenv venv
+   371	14:56	source venv/bin/activate.csh
+   380	14:58	pip install sqlalchemy
+   384	15:01	setenv ORACLE_HOME /db0/home/oracle/instantclient/instantclient_10_2 (and others in .cshrc)
+   396	15:05	source ~/.cshrc
+   399	15:05	source venv/bin/activate.csh
+   400	15:05	pip install cx_Oracle
